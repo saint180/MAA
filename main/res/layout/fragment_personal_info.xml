@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_foreground" />
+
+        <!-- Name Label -->
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sachin"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp" />
+
+        <!-- Email Label -->
+        <TextView
+            android:id="@+id/email_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sachin9820246@gmail.com"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp" />
+
+        <!-- Phone Label -->
+        <TextView
+            android:id="@+id/phone_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp" />
+
+        <!-- Phone -->
+        <TextView
+            android:id="@+id/text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6361688905"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp" />
+
+        <!-- Address Label -->
+        <TextView
+            android:id="@+id/address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/text_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kormangala"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+</ScrollView>

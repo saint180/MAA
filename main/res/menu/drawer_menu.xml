@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personal_info"
+            android:title="Personal Info Settings"
+            android:titleTextColor="@color/white" />
+        <item
+            android:id="@+id/nav_laws"
+            android:title="Laws"
+            android:titleTextColor="@color/white" />
+        <item
+            android:id="@+id/nav_current_affairs"
+            android:title="Current Affairs"
+            android:titleTextColor="@color/white" />
+        <!-- New Pro Bono Lawyers Section -->
+        <item
+            android:id="@+id/nav_pro_bono_lawyers"
+            android:title="Pro Bono Lawyers"
+            android:titleTextColor="@color/white" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:titleTextColor="@color/white" />
+        </menu>
+    </item>
+</menu>

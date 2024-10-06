@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_personal_info"
+        android:title="Personal Info"/>
+
+    <item
+        android:id="@+id/nav_laws"
+        android:title="Legal Laws"/>
+
+    <item
+        android:id="@+id/nav_current_affairs"
+        android:title="Current Affairs"/>
+
+    <!-- New Pro Bono Lawyers Section -->
+    <item
+        android:id="@+id/nav_pro_bono_lawyers"
+        android:title="Pro Bono Lawyers"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"/>
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <!-- SDG 16 Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peace, Justice, and Strong Institutions"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal 16 of the Sustainable Development Goals aims to promote peaceful and inclusive societies, provide access to justice for all, and build effective, accountable, and inclusive institutions at all levels."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="16dp" />
+
+        <!-- Image representing peace and justice -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/peace_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="Image representing peace and justice"
+            android:paddingBottom="16dp" />
+
+        <!-- Key Statistics -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key Statistics:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• 1 in 4 people report feeling unsafe walking alone at night."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Only 54% of births worldwide are registered."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Corruption, bribery, theft, and tax evasion cost developing countries an estimated $1.26 trillion per year."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="16dp" />
+
+        <!-- Actionable Items -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How You Can Help:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Advocate for human rights and fair justice."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Promote transparency and accountability in your community."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Support organizations working towards peace and justice."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="16dp" />
+
+        <!-- Button for more information -->
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="openMoreInfo" />-->
+    </LinearLayout>
+</ScrollView>
